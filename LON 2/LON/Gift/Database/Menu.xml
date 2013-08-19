@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menus>
+  <Menu>
+    <Text>Home</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+  <Menu>
+    <Text>Watches</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+  <Menu>
+    <Text>Computer</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+
+  <Menu>
+    <Text>Mobile</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+
+
+  <Menu>
+    <Text>Tea Cups</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+  <Menu>
+    <Text>T Shirts</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+  <Menu>
+    <Text>Laptops</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+  <Menu>
+    <Text>Flowers</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+  <Menu>
+    <Text>Baquet</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+  <Menu>
+    <Text>Pen</Text>
+    <Url>http://www.google.com</Url>
+  </Menu>
+</Menus>

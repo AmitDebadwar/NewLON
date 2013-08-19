@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LONDataClasses">
+  <DataContextMoniker Name="/LONDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="19462842-8277-477e-a7c4-870f4b65b853" absoluteBounds="1.625, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LONDataClassesDataContext/MainCategoryMaster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c4153804-5aad-4ccb-8637-57c6bab1b89a" absoluteBounds="1.6400000000000001, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="13071dd5-bbb6-45ef-8ee1-b7c078844bf4" absoluteBounds="4.75, 1.375, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/LONDataClassesDataContext/ParentCategoryMaster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e498167e-a17f-4fb5-a45c-c3789e501565" absoluteBounds="4.765, 1.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0232eb29-7234-4eff-a80f-5ebb28bb086d" absoluteBounds="0.5, 2.625, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/LONDataClassesDataContext/ProductMaster" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49d83adc-0ded-49a4-b02a-5009c53db318" absoluteBounds="0.51500000000000012, 3.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

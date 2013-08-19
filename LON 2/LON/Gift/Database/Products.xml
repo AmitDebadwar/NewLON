@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+  <Product>
+    <Id></Id>
+    <Name></Name>
+    <Prise></Prise>
+    <Description></Description>
+    <Discount></Discount>
+    <imgPath>ProductImages/Nokia-X6.png</imgPath>
+  </Product>
+
+  <Product>
+    <Id>1</Id>
+    <Name>Flowers</Name>
+    <Prise>100</Prise>
+    <Description>Flowers for Birthday</Description>
+    <Discount>10%</Discount>
+    <CategoryId>1</CategoryId>
+  </Product>
+  <Product>
+    <Id>2</Id>
+    <Name>Samsung S2</Name>
+    <Prise>21000</Prise>
+    <Description>Android Mobile</Description>
+    <Discount>15%</Discount>
+    <CategoryId>2</CategoryId>
+    <imgPath>ProductImages/Nokia-X6.png</imgPath>
+  </Product>
+</Products>

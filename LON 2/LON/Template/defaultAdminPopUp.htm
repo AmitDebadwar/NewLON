@@ -1,0 +1,188 @@
+﻿<div id="popupNewMainCat" title="New Main Category Window">
+    <table border="0" cellpadding="4" cellspacing="4">
+        <tr>
+            <th>
+                Category Name:
+            </th>
+            <td>
+                <input type="text" id="txtMainCatName" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Image
+            </th>
+            <td>
+                <input type="file" id="fileMainPath" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="popUpNewParentCategory" title="New Parent Category Window">
+    <table border="0" cellpadding="4" cellspacing="4">
+        <tr>
+            <th>
+                Select Main Category:
+            </th>
+            <td>
+                <select data-bind="options:['A','B','C']" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Category Name:
+            </th>
+            <td>
+                <input type="text" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Image
+            </th>
+            <td>
+                <input type="file" />
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="popUpMainCatUpdate" title="Main Cat Update">
+    <table border="0" cellpadding="4" cellspacing="4">
+        <tr>
+            <th>
+                Category Id:
+            </th>
+            <td>
+                <span id="snCatId"></span>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Name:
+            </th>
+            <td>
+                <input type="text" id="txtCatName" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Image:
+            </th>
+            <td>
+                <input type="file" />
+                <br />
+                <small>If you select new image. Previous image will be override.</small>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="popUpParentCatUpdate" title="Update Parent Category">
+    <table border="0" cellpadding="4" cellspacing="4">
+        <tr>
+            <th>
+                Parent Cat Id:
+            </th>
+            <td>
+              <b id="lblParentCatUpdatePCatId"></b>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Name:
+            </th>
+            <td>
+                <input type="text" id="txtParentCatUpdateName" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Image:
+            </th>
+            <td>
+                <input type="file" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Main Category Id:
+            </th>
+            <td>
+ 
+                <select data-bind="options:arrMainCategories,optionsText: 'MainCategoryId',optionsValue:'MainCategoryId', value:alreadySelectedCatId()">
+                </select>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="popUpAddproduct" title="New Main Category Window">
+    <table border="0" cellpadding="4" cellspacing="4">
+        <tr>
+            <th>
+                Parent Category Id:
+            </th>
+            <td>
+            <select data-bind="options:tempArr"></select>
+                <select data-bind="options:arrParentCategories,optionsText:'ParentCategoryName',optionsValue:'ParentCategoryId'"
+                    id="selPCatId">
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Product Name:
+            </th>
+            <td>
+                <input type="text" id="txtProductName" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Alternate Name:
+            </th>
+            <td>
+                <input type="text" id="txtAlternateName" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Prise:
+            </th>
+            <td>
+                <input type="text" id="txtPrise" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Thumbnail:
+            </th>
+            <td>
+                <input type="file" id="fileThumbnail" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Image:
+            </th>
+            <td>
+                <input type="file" id="fileProductImage" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Description:
+            </th>
+            <td>
+                <textarea id="taDescription"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                ProductStatusId:
+            </th>
+            <td>
+                <select data-bind="options:['Available','Coming soon']" id="selProdStatus">
+                </select>
+            </td>
+        </tr>
+    </table>
+</div>

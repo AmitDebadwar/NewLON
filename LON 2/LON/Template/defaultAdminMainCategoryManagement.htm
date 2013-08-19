@@ -1,0 +1,67 @@
+﻿<div data-bind="visible:WindowFrame()=='--> Main Category'">
+    
+    <h2>
+        Main Category</h2>
+    <br />
+    <table border="1" cellpadding="4" cellspacing="1">
+        <thead>
+            <tr style="background: gray; color: Orange;">
+                <th>
+                    Category Id
+                </th>
+                <th>
+                    Category Name
+                </th>
+                <th>
+                    Image
+                </th>
+                <th>
+                    Created By
+                </th>
+                <th>
+                    Created On
+                </th>
+                <th>
+                    Modified By
+                </th>
+                <th>
+                    Modified On
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach:arrMainCategories">
+            <tr>
+                <td data-bind="text:MainCategoryId">
+                    Category Id
+                </td>
+                <td data-bind="text:MainCategoryName">
+                    Category Name
+                </td>
+                <td data-bind="text:MainCategoryImage">
+                    Image
+                </td>
+                <td data-bind="text:CreatedBy">
+                    Created By
+                </td>
+                <td data-bind="text:CreatedDate">
+                    Created On
+                </td>
+                <td data-bind="text:ModifiedBy">
+                    Modified By
+                </td>
+                <td data-bind="text:ModifiedDate">
+                    Modified On
+                </td>
+                <td>
+                    <a href="#" data-bind="text:'Update', click:$root.fnMainUpdate"></a>&nbsp<a href="#"
+                        data-bind="text:'Delete', click:$root.fnDeleteMainCat"> </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a onclick="ShowMainCategoryPopup()" id="btnAddNewMainCategory">Add New Category</a>
+    <hr style="color: Orange; width: 'auto'; border: 4px solid orange;" />
+</div>

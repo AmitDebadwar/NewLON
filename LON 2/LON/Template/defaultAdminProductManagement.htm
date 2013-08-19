@@ -1,0 +1,103 @@
+﻿<div data-bind="visible:WindowFrame()=='Product Management'">
+    <h2>
+        Product Management</h2>
+    <br />
+    <table border="1" cellpadding="2" cellspacing="2">
+        <thead>
+            <tr>
+                <th>
+                    Product Id
+                </th>
+                <th>
+                    Product Name
+                </th>
+                <th>
+                    Alternate Name
+                </th>
+                <th>
+                    Prise
+                </th>
+                <th>
+                    Thumbnail
+                </th>
+                <th>
+                    Image
+                </th>
+                <th>
+                    Description
+                </th>
+                <th>
+                    Parent Cat Id
+                </th>
+                <th>
+                    Status
+                </th>
+                <th>
+                    Created By
+                </th>
+                <th>
+                    Created On
+                </th>
+                <th>
+                    Modified By
+                </th>
+                <th>
+                    Modified On
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach:arrProducts">
+            <tr>
+                <td>
+                    <b data-bind="text:ProductId, visible:!editMe()"></b>
+                    <input type="text" data-bind="visible:editMe,value:ProductId" />
+                </td>
+                <td data-bind="text:ProductName ">
+                    Product Name
+                </td>
+                <td data-bind="text:ProductNameAlternate">
+                    Alternate Name
+                </td>
+                <td data-bind="text: ProductPrice">
+                    Prise
+                </td>
+                <td data-bind="text: ProductThumbnailImageFileName">
+                    tdumbnail
+                </td>
+                <td data-bind="text: ProductDisplayImageFileName">
+                    Image
+                </td>
+                <td data-bind="text: ProductDescription">
+                    Description
+                </td>
+                <td data-bind="text: ParentCategoryId">
+                    Parent Cat Id
+                </td>
+                <td data-bind="text: ProductStatusId">
+                    Status
+                </td>
+                <td data-bind="text: CreatedBy">
+                    Created By
+                </td>
+                <td data-bind="text:'3 Jun 2013' ">
+                    CreatedDate
+                </td>
+                <td data-bind="text: ModifiedBy">
+                    Modified By
+                </td>
+                <td data-bind="text:'4 Aug 2012'">
+                    ModifiedDate
+                </td>
+                <td>
+                    <a href="#" data-bind="click:$root.fnEdit,visible:!editMe()" id="ancProdUpdate">Update</a>
+                    <a href="#" data-bind="visible:editMe,click:$root.fnSaveUpdate" id="ancProdSave">Save</a> <a href="#"
+                        data-bind="visible:editMe,click:$root.fnEdit" id="ancProdCancel">Cancel</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a href="#" data-bind="click:fnAddNewProduct" id="btnAddNewProduct">Add Product</a>
+</div>

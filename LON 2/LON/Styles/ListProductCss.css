@@ -1,0 +1,184 @@
+﻿
+/*@import "http://fonts.googleapis.com/css?family=Varela+Round";*/
+
+.wcd {
+    float: left;
+    height: 40px;
+    width: 33%;
+}
+.wcd-logo {
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-family: 'Varela Round',sans-serif;
+    font-size: 32px;
+    text-align: center;
+    transition: color 0.3s ease-in 0s;
+}
+.wcd-logo:hover {
+    color: #3FACFF;
+}
+.wcd-tuto {
+    color: #FFFFFF;
+    font-family: 'Varela Round',sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+}
+.webcodo-top {
+    background-color: #232323;
+    height: 40px;
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+.grid, .list {
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    float: left;
+    height: 15px;
+    margin-left: 10px;
+    padding: 5px;
+    width: 15px;
+}
+.grid {
+    background: url("../img/grid.png") no-repeat scroll 50% center transparent;
+}
+.grid:hover {
+    background: url("../img/gridw.png") no-repeat scroll 50% center #7EB800;
+}
+.grid-active {
+    background: url("../img/gridw.png") no-repeat scroll 50% center #039FD3;
+}
+.list {
+    background: url("../img/list.png") no-repeat scroll 50% center transparent;
+}
+.list:hover {
+    background: url("../img/listw.png") no-repeat scroll 50% center #7EB800;
+}
+.list-active {
+    background: url("../img/listw.png") no-repeat scroll 50% center #039FD3;
+}
+.prods-cnt {
+    background-color: #FAFAFA;
+    border: 1px dotted #CCCCCC;
+    height: auto;
+    margin: 40px auto;
+    min-height: 400px;
+    overflow: auto;
+    padding: 40px;
+    width: 720px;
+}
+.prod-box {
+    background-color: #FFFFFF;
+    float: left;
+    height: 200px;
+    margin: 15px;
+    padding: 10px;
+    width: 190px;
+}
+.prod-box img:first-child, .prod-box-list img:first-child {
+    float: left;
+    width: 140px;
+}
+.prod-box h3 a {
+    color: #888888;
+    float: left;
+    font: italic 14px georgia;
+    margin: 5px 0;
+    text-decoration: none;
+    width: 140px;
+}
+.prod-box p {
+    display: none;
+}
+.prod-box .old {
+    color: #BE0000 !important;
+    margin-right: 20px;
+    text-decoration: line-through;
+}
+.prod-box .price {
+    color: #181818;
+    display: inline;
+    float: left;
+    font: italic 13px georgia;
+    width: 60px;
+}
+.prod-box .buy-ico {
+    background: url("../img/bag-ico.png") no-repeat scroll 50% center #039FD3;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    float: right;
+    height: 35px;
+    margin: 5px;
+    transition: background-color 0.3s ease-in 0s;
+    width: 35px;
+}
+.prod-box .buy-ico:hover {
+    background-color: #7EB800;
+}
+.prod-box-list {
+    background-color: #FFFFFF;
+    height: 140px;
+    margin: 15px;
+    padding: 10px;
+    width: 420px;
+}
+.prod-box-list h3 a {
+    color: #3C2E25;
+    float: left;
+    font: italic 22px georgia;
+    margin: 0 10px;
+    padding: 0;
+    text-decoration: none;
+    width: 220px;
+}
+.prod-box-list p {
+    color: #888888;
+    float: left;
+    font: italic 13px/20px georgia;
+    margin: 20px 10px 10px;
+    width: 360px;
+}
+.prod-box-list .buy-ico {
+    background: url("../img/bag-ico.png") no-repeat scroll 5% 50% #039FD3;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font: italic 12px georgia;
+    height: 20px;
+    margin: 5px;
+    padding: 5px 5px 5px 30px;
+    transition: background-color 0.3s ease-in 0s;
+    width: 85px;
+}
+.prod-box-list .buy-ico:before {
+    content: "More Details";
+    line-height: 22px;
+}
+.prod-box-list .buy-ico:hover {
+    background-color: #7EB800;
+}
+.prod-box-list .old {
+    color: #BE0000 !important;
+    float: right;
+    text-decoration: line-through;
+    display:inline;
+}
+.prod-box-list .price {
+    color: #181818;
+    display: block;
+    font: italic 20px georgia;
+    margin: 7px;
+     display:inline;
+}
+.prod-box-list .price-cnt {
+    float: right;
+    height: auto;
+    text-align: right;
+    width: 95px;
+}
+.shadow {
+    box-shadow: 0 0 5px rgba(50, 50, 50, 0.31);
+}

@@ -1,0 +1,56 @@
+﻿div.imgCart
+{
+    margin: 2px;
+    border: 1px solid gray;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: Left;
+    padding: 4px;
+    margin: 1px;
+    display: inline;
+    position: relative;
+}
+
+
+
+.container
+{
+    border: 1px solid gray;
+    float: left;
+    text-align: Left;
+    overflow: hidden;
+    height: 180px;
+    width: 140px;
+    position: relative;
+    margin: 12px;
+}
+.container img
+{
+    display: inline;
+    margin: 3px;
+    height: 180px;
+    width: 140px;
+}
+
+.container .Desc
+{
+    width: 140px;
+    top: 0px;
+    color: orange;
+    position: absolute;
+    background: gray;
+    padding: 4px;
+    opacity: 0;
+    height: 180px;
+}
+
+.container:hover .Desc
+{
+    opacity:0.7;
+
+}
+
+
+
+

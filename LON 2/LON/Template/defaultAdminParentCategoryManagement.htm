@@ -1,0 +1,72 @@
+﻿<div data-bind="visible:WindowFrame()=='--> Parent Category'">
+    <h2>
+        Parent Category</h2>
+    <br />
+    <table border="1" cellpadding="4" cellspacing="1">
+        <thead>
+            <tr>
+                <th>
+                    Parent Cat Id
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Image
+                </th>
+                <th>
+                    Created By
+                </th>
+                <th>
+                    Created On
+                </th>
+                <th>
+                    Modified By
+                </th>
+                <th>
+                    Modified On
+                </th>
+                <th>
+                    Main Id
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach:arrParentCategories">
+            <tr>
+                <td data-bind="text:ParentCategoryId">
+                    Parent Cat Id
+                </td>
+                <td data-bind="text:ParentCategoryName">
+                    Name
+                </td>
+                <td data-bind="text:ParentCategoryImage">
+                    Image
+                </td>
+                <td data-bind="text:CreatedBy">
+                    Created By
+                </td>
+                <td data-bind="text:CreatedDate">
+                    Created On
+                </td>
+                <td data-bind="text:ModifiedBy">
+                    Modified By
+                </td>
+                <td data-bind="text:ModifiedDate">
+                    Modified On
+                </td>
+                <td data-bind="text:MainCategoryId">
+                    Main Id
+                </td>
+                <td>
+                    <a href="#" data-bind="text:'Update',click:$root.fnParentUpdate"></a>&nbsp<a href="#"
+                        data-bind="text:'Delete'"> </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <a onclick="ShowParentCategoryPopup()" id="btnAddNewParentCategory">Add New Category</a>
+    <hr style="color: Orange; width: 'auto'; border: 4px solid orange;" />
+</div>
